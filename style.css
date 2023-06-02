@@ -1,0 +1,99 @@
+* {box-sizing: border-box}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgb(101, 6, 104);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.botones {
+    color: #035c19;
+    font-size: 30px;
+    padding: 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+
+.titulo {
+text-align: center;
+font-size: 50px;
+color: rgb(5, 116, 116);
+padding: 30px;
+}
+
+p {
+    font-size: 18px;
+    color: blue;
+    text-align: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: Arial;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: 'Times New Roman';
+    color: blue;
+    text-align: center;
+    padding: 10px;
+}
+
+video {
+    align-items: center;
+    margin-left: center;
+}
+
+audio {
+    align-items: center;
+}
+
+.multimedia {
+    padding: 5px;
+}
+
+.botonesVideo {
+  align-items: center;
+  text-align: center;
+}
+
+.botonesAudio {
+  align-items: center;
+  text-align: center;
+}
